@@ -14,4 +14,4 @@ Before running run-odoo-auto.sh, install jq in your Linux and also run chmod +x 
 
 For running run-odoo-auto.sh, in your Linux terminal run: full/path/to/run-odoo-auto.sh.
 
-For shutting down Odoo, in your Linux terminal hit ctrl and c. If it doesn't work, run: sudo kill -9 $(sudo lsof -t -i:8069). Instead of 8069, write the post that Odoo is using.
+For shutting down Odoo, in your Linux terminal hit ctrl and c. If it doesn't work, run: sudo kill -9 $(sudo lsof -t -i:8069). Instead of 8069, write the port that Odoo is using.
